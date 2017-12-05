@@ -2,15 +2,15 @@ This fork of [Swiper](https://github.com/abo-abo/swiper), located
 at https://github.com/Boruch-Baum/swiper, provides the
 following additional features:
 
-1. An informative interface for ivy.
+1) An informative interface for ivy.
 
-1.1. Although Ivy has multiple modes of operation, multiple regex
+1.1) Although Ivy has multiple modes of operation, multiple regex
      techniques, and multiple actions, Ivy does not give a user visual
      feedback of its current state of operation, this even though a
      user can dynamically change any of those in mid-selection. It is
      very easy to lose track.
 
-1.2. Ivy users may also suffer confusion from the many keybindings
+1.2) Ivy users may also suffer confusion from the many keybindings
      for the many options that Ivy offers.
 
   This fork addresses both those issues. It provides a single-line
@@ -23,6 +23,10 @@ following additional features:
   an ivy minibuffer, display of hints are toggled by keybinding
   `M-x ?'.
 
+![screenshot of the interface](./ivy-lv-display-1.png)
+screenshot of the interface
+![screenshot of a sample hint](./iby-lv-display-hints-1.png)
+screenshot of a sample hint
 
 # Original README begins here
 
