@@ -1,3 +1,30 @@
+This fork of [Swiper](https://github.com/abo-abo/swiper), located
+at https://github.com/Boruch-Baum/swiper/tree/prompt, provides the
+following additional features:
+
+1. An informative interface for ivy.
+
+1.1 Although Ivy has multiple modes of operation, multiple regex
+    techniques, and multiple actions, Ivy does not give a user visual
+    feedback of its current state of operation, this even though a
+    user can dynamically change any of those in mid-selection. It is
+    very easy to lose track.
+
+1.2 Ivy users may also suffer confusion from the many keybindings for
+    the many options that Ivy offers.
+
+This fork addresses both those issues. It provides a single-line
+informative display above the minibuffer, in the form: "case[%s]
+regex[%s] action: %s%s", and optionally also display usage hints,
+which can be edited according to the user's need.
+
+These features are toggled by evaluating function
+`ivy-lv-display-mode'. When the feature is enabled and focus is in an
+ivy minibuffer, display of hints are toggled by keybinding `M-x ?'.
+
+
+# Original README begins here
+
 [![Build Status](https://travis-ci.org/abo-abo/swiper.svg?branch=master)](https://travis-ci.org/abo-abo/swiper)
 
 ***flexible, simple tools for minibuffer completion in Emacs***
