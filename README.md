@@ -23,11 +23,18 @@ following additional features:
   an ivy minibuffer, display of hints are toggled by keybinding
   `M-x ?'.
 
-![screenshot of the interface](./ivy-lv-display-1.png)
+
+---
 screenshot of the interface
 
-![screenshot of a sample hint](./ivy-lv-display-hints-1.png)
+![screenshot of the interface](./ivy-lv-display-1.png)
+---
+
+---
 screenshot of a sample hint
+
+![screenshot of a sample hint](./ivy-lv-display-hints-1.png)
+---
 
 # Original README begins here
 
