@@ -25,7 +25,8 @@ following additional features:
 
 ![screenshot of the interface](./ivy-lv-display-1.png)
 screenshot of the interface
-![screenshot of a sample hint](./iby-lv-display-hints-1.png)
+
+![screenshot of a sample hint](./ivy-lv-display-hints-1.png)
 screenshot of a sample hint
 
 # Original README begins here
