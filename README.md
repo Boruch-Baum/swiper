@@ -21,7 +21,7 @@ following additional features:
   These features are toggled by evaluating function
   `ivy-lv-display-mode'. When the feature is enabled and focus is in
   an ivy minibuffer, display of hints are toggled by keybinding
-  `M-x ?'.
+  `M-?'.
 
 
 ---
